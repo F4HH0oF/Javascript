@@ -1,0 +1,55 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    background-color: #60435F;
+}
+
+
+
+h3{
+    font-size: 150%;
+    color: #FDF7FA;
+}
+
+legend{
+    font-size: 130%;
+    color: #FDF7FA;
+    margin: 3%;
+}
+
+
+fieldset{
+    width: 30%;
+    height: 270px;
+    /* float: left; */
+    /* display: inline; */
+    
+    margin: 0.6%;
+    background-color: #D67AB1;
+}
+
+.butt{
+    border-radius: 40%;
+    padding: 1.5%;
+    margin-left: 2%;
+    background-color:#A8DCD9;
+}
+
+.imena{
+    margin: 2%;   
+    background-color: #E2A3C7;
+    
+}
+
+textarea{
+    margin-left: 2%;
+    padding-left: 1%;
+    background-color: #E2A3C7;
+}
+
+.otmetki{
+    margin: 1%;
+    margin-left: 1.5%;
+
+}
+

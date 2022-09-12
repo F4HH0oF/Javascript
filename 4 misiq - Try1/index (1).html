@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Не променяй head частта на документа -->
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet"
+        href="">
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <link rel="shortcut icon"
+        href="https://school.telerikacademy.com/pluginfile.php/1/theme_space/favicon/1569906744/favicon-1.ico">
+    <title>Homework</title>
+</head>
+
+<style>
+body{
+border-radius: 40px;
+background-color: red;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+legend{
+    font-size: 26px;
+}
+fieldset{
+    border-radius: 40px; background-color: aquamarine;
+
+}
+button{
+    background-color: blueviolet; border-radius: 40px; padding: 10px;
+}
+
+</style>
+
+<body>
+    <!-- Разгледай внимателно конструкцията и използваните тагове за създаване на формуляри.
+        Използвай само атрибутите
+        type    
+        placeholder
+        rows    
+        name 
+    -->
+    <form>
+        <fieldset>
+            <legend>Лични данни</legend>
+            <input type="text" placeholder="Име" name="fname"><br><br>
+            <input type="text" placeholder='Фамилия' name="lname">
+            <br><br>
+            <button type="submit">Изпрати</button>
+            <button type="reset">Рестартирай</button>
+        </fieldset>
+
+        <fieldset >
+            <legend>Предочитания за меню</legend>
+            <input  name='0' type="radio">Нямам<br>
+            <input name='0' type="radio">Вегетарианец<br>
+            <input name='0' type="radio">Веган<br>
+ 
+            <textarea placeholder="Пояснения..." rows="5">
+                
+            </textarea>
+            <br><br>
+
+            <button  type="submit">Изпрати</button>
+            <button  type="reset">Рестартирай</button>
+        </fieldset>
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.bundle.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <title>Chart</title>
+</head>
+<body>
+    <div class="cointainer">
+        <canvas id="myChart"></canvas>
+    </div>
+
+    <script>
+        let myChart = document.getElementById('myChart').getContext('2d');
+        Chart.defaults.global.defaultFontFamily = 'Roboto';
+        Chart.defaults.global.defaultFontSize = 14;
+        Chart.defaults.global.defaultFontColor = '#777';
+        
+        
+        let massPopChart = new Chart(myChart, {
+            type:'bar',
+            data:{
+                labels:['Sofia', 'Plovdiv', 'Varna', 'Burgas', 'Ruse'],
+                datasets:[{
+                    label:'Population',
+                    data:[
+                    1204685,  
+                    338153,
+                    334870,
+                    200271,
+                    149642,
+                    ],
+                   
+                   backgroundColor:[
+                   'purple',
+                   'yellow',
+                   'green',
+                   'red',
+                   'orange'
+                   ],
+                   borderWidth: 1,
+                   borderColor: 'grey',
+                   hoverBorderWidth:3,
+                   hoverBorderColor:'blue'
+
+                }]
+            },
+            options:{
+                title:{
+                    display: true,
+                    text:'Largest cities in Bulgaria',
+                    fontSize:25
+                },
+                legend:{
+                    position:'top',
+                },
+                layout:{
+                    padding: {
+                        left:20, 
+                        right:0,
+                        bottom:0,
+                        top:0
+                    }
+                },
+            }
+        })
+    </script>
+
+
+</body>
+</html>

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Comfortaa">
+
+<style>
+    body
+    {
+        font-family: Comfortaa;
+    }
+    fieldset
+    {
+        border-radius: 5px;
+        box-shadow:0 5px 14px 0 grey;
+        width: 85%;
+    }
+    legend
+    {
+        font-size: 30px;  
+    }
+
+    button
+    {
+        padding: 10px;
+        margin: 5px;
+        background-color: rgb(5, 2, 194);
+        color: white;
+        border-radius: 8px;
+        box-shadow: 0 2px 15px 0 grey;
+    }
+
+    input[type=text]
+    {
+        margin: 10px;
+        font-size: 16px;
+    }
+
+    input[type=radio]{
+        margin: 5px;
+
+    }
+
+    textarea::placeholder{
+        font-size: 15px;
+
+    }
+
+    
+
+
+</style>
+
+
+<body>
+    <fieldset>
+        <legend>Лични данни</legend>
+        
+     <input type="text" placeholder="Име" name="Fname"><br>
+     <input type="text" placeholder="Фамилия" name="Lname"><br><br>
+
+     <button type="submit">Изпрати</button> 
+     <button type="reset">Рестартирай</button>
+    </fieldset><br>
+    
+    <fieldset>
+        <legend>Предпочитания за меню</legend>
+        <input name="0" type="radio">Нямам<br>
+        <input name="0" type="radio">Вегетарианец<br>
+        <input name="0" type="radio">Веган<br>
+        <textarea name="Пояснения" cols="30" rows="5" placeholder="Пояснения"></textarea>
+        <br><br>
+        <button type="submit">Изпрати</button> 
+     <button type="reset">Рестартирай</button>
+
+    </fieldset>
+
+
+
+
+
+
+
+
+</body>
+</html>

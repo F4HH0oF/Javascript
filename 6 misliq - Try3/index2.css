@@ -1,0 +1,22 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+fieldset{
+    position: absolute;
+    width: 32%;
+    height: 270px;
+}
+
+.lichni{
+    left: 0.7%;
+}
+
+.predpochit{
+    left: 33.7%;
+}
+
+.transport{
+    left: 66.6%;
+}

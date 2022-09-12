@@ -1,0 +1,10 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: grid;
+    grid-column: 100px;
+    grid-row: 100px 100px 100px;
+}
