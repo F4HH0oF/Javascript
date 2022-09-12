@@ -1,0 +1,126 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    background-color: white;
+    
+}
+
+
+
+
+.title{
+    position: relative;
+    text-align: center;
+    color:#8441e2;
+    font-family: 'Playfair Display', serif;
+    
+}
+
+.subtitle{
+    position: relative;
+    text-align: center;
+    margin-top: 1%;
+    font-family: 'Playfair Display', serif;
+}
+
+.contact{
+    position: absolute;
+    top: 32%;
+    left: 5%;
+    padding: 10px;
+    font-family: 'Playfair Display', serif;
+    
+}
+
+h3{
+    color:#8441e2;
+    font-family: 'Playfair Display', serif;
+}
+
+ul li::before {
+    content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: #8441e2; /* Change the color */
+    font-weight: lighter; /* If you want it to be bold */
+    display: inline-block; /* Needed to add space between the bullet and the text */
+    width: 2em; /* Also needed for space (tweak if needed) */
+    margin-left: -1.19em; /* Also needed for space (tweak if needed) */
+  }
+
+ul{
+    position: absolute;
+    left: 6%;
+}
+
+
+.type-info{
+    position: absolute;
+    margin: 3%;
+    top: 25%;
+    right: 12%;
+    font-family: 'Playfair Display', serif;   
+    
+}
+
+input{
+    margin: 3%;
+    width:350px;
+    height: 25px;
+    padding-left: 2.5%;
+    box-shadow: 0px 2px 5px 1px #8441e2;
+    border: none;
+    font-family: 'Playfair Display', serif;
+}
+
+textarea{
+    margin: 3%;
+    padding-left: 2.5%;
+    box-shadow: 0px 6px 10px 0px #8441e2;
+    border: none;
+    font-family: 'Playfair Display', serif;
+    width: 350px;
+    resize: none;
+
+    
+}
+
+button{
+    margin: 3.5%;
+    background-color: #8441e2;
+    color: white;
+    padding: 1.5%;
+    border-radius: 8px;
+    box-shadow: 0 2px 15px 0 grey;
+    border: none;
+    font-family: 'Playfair Display', serif;
+}
+
+button:hover{
+    cursor: pointer;
+    box-shadow: 2px 2px 15px #d541e2;
+}
+
+.link{
+    text-decoration: underline;
+    color: black;
+
+}
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

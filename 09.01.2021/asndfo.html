@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Не променяй head частта на документа -->
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet"
+        href="">
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <link rel="shortcut icon"
+        href="https://school.telerikacademy.com/pluginfile.php/1/theme_space/favicon/1569906744/favicon-1.ico">
+    <title>Homework</title>
+</head>
+
+<style>
+body{
+    background-color: black;
+
+}
+
+h6{
+    color: yellow;
+    font-size: 25px;
+    text-align: center;
+}
+
+fieldset{
+    background-color: grey;
+    text-align: center;
+    border: 0px;
+    margin-bottom: 25px;
+    ;
+    
+    
+}
+legend{
+    font-size: 22px;
+    color: yellow;
+    text-align: center;
+}
+
+button{
+    background-color: red;
+    color: yellow;
+    padding: 6px;
+    margin: 3px;
+    margin-top: 0px;
+    box-shadow: 10px ;
+    border-radius: 15px;
+    border: 20px;
+
+
+
+}
+
+</style>
+
+
+
+
+<body>
+
+    
+    <h6>Анкета за вкусову предпочитания</h6>
+    <form>
+        <fieldset>
+            <legend>Лични данни</legend>
+            <input type="text" placeholder="Име" name="fname"><br><br>
+            <input type="text" placeholder='Фамилия' name="lname">
+            <br><br>
+            <button type="submit">Изпрати</button>
+            <button type="reset">Рестартирай</button>
+        </fieldset>
+
+        <fieldset >
+            <legend>Предочитания за меню</legend>
+            <input  name='0' type="radio">Нямам<br>
+            <input name='0' type="radio">Вегетарианец<br>
+            <input name='0' type="radio">Веган<br>
+ 
+            <textarea rows="10" placeholder="Пояснения..." rows="5">
+                
+            </textarea>
+            <br><br>
+
+            <button  type="submit">Изпрати</button>
+            <button  type="reset">Рестартирай</button>
+        </fieldset>
+    </form>
+</body>
+
+</html>

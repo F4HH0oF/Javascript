@@ -1,0 +1,21 @@
+.butt:hover{
+    cursor: pointer;
+    box-shadow: 2px 2px 15px green;
+    color: black;
+}
+
+.butt{  
+    padding: 1%;
+    border: none;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 20%;
+    
+}
+#blue{
+    background-color: blue; 
+}
+
+
+#red{  
+    background-color: red;
+}
